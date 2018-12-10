@@ -3,7 +3,7 @@
 ```
 	npm i vue-src-to-specs
 ```
-#### 用法
+#### 用法: 引入*.conf.js或者index.js，基于node.js运行;
 ```
 	const creatFiles = require('vue-src-to-specs');
 	creatFiles();
