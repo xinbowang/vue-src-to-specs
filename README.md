@@ -3,3 +3,8 @@
 ```
 	npm i vue-src-to-specs
 ```
+#### 用法
+```
+	const creatFiles = require('vue-src-to-specs');
+	creatFiles();
+```
