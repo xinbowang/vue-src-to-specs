@@ -9,7 +9,7 @@
 	const creatFiles = require('vue-src-to-specs');
 	creatFiles([!options]);
 ```
-##### 新增options配置: 非必须
+##### 新增options配置实例: 非必须
 ```
 	options: {
 		includes: ['src', '!src/**/*.html', '!src/**/*.js'],
