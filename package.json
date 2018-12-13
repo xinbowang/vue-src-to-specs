@@ -33,11 +33,15 @@
     "vue-src-to-specs",
     "生成specs目录"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xinbowang/vue-src-to-specs.git"
+  },
   "license": "ISC",
   "main": "index.js",
   "name": "vue-src-to-specs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "1.0.2"
+  "version": "1.1.0"
 }
