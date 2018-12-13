@@ -9,14 +9,14 @@
 	const creatFiles = require('vue-src-to-specs');
 	creatFiles([!options]);
 ```
-##### 新增options配置实例: 非必须
+#### 新增options配置实例: 非必须
 ```
 	options: {
 		includes: ['src', '!src/**/*.html', '!src/**/*.js'],
 		store: true
 	}
 ```
-##### 说明：
+#### 说明：
 * includes: ([Array]/'String':默认'/src') 数组/字符串
 	* !：表示排除的文件/文件夹;
 	* 数组第一个参数：如果不是要排除文件/文件夹，那么默认是入口文件夹（不支持文件做入口）。建议不设置【多个非排除目录，只执行第一个目录，后面的非排除目录不会执行】;
