@@ -32,11 +32,12 @@
   },
   "bundleDependencies": false,
   "deprecated": false,
-  "description": "vue单元测试，test/unit/specs目录下生成和src对应的目录文件",
+  "description": "Vue unit tests, test/unit/specs directories generate the directory files corresponding to SRC",
   "homepage": "https://github.com/xinbowang/vue-src-to-specs#readme",
   "keywords": [
     "vue-src-to-specs",
-    "生成specs目录"
+    "Build specs directory",
+    "Vue unit test plugin"
   ],
   "license": "ISC",
   "main": "index.js",
@@ -48,5 +49,5 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "1.1.7"
+  "version": "1.1.8"
 }
